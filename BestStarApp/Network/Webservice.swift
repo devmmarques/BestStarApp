@@ -11,6 +11,7 @@ import Foundation
 enum ParameterEncoding {
     case json
     case url
+    case queryString
 }
 
 protocol Webservice {

@@ -14,6 +14,8 @@ extension ParameterEncoding {
         switch self {
         case .json:
             return JSONEncoding.default
+        case .queryString:
+            return URLEncoding.queryString
         default:
             return URLEncoding.default
         }
@@ -35,7 +37,7 @@ struct BaseWebservice: Webservice {
         }
         
         var alamofireHeaders = headers
-        alamofireHeaders["Content-Type"] = "application/x-www-form-urlencoded"
+        alamofireHeaders["Content-Type"] = "application/json"
         
         let httpMethod = alamofireMethod(with: method)
         
@@ -43,6 +45,8 @@ struct BaseWebservice: Webservice {
                                       parameters: parameters,
                                       encoding: encoding.alamofireEncoding,
                                       headers: alamofireHeaders)
+        
+        print(request)
         
         request
             .validate(statusCode: 200..<300)

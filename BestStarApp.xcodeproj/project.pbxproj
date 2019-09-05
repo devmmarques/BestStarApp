@@ -19,6 +19,10 @@
 		B26EA7492320878E0066F20B /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA7482320878E0066F20B /* Environment.swift */; };
 		B26EA74B2320879D0066F20B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA74A2320879D0066F20B /* Configuration.swift */; };
 		B26EA74D232087EF0066F20B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA74C232087EF0066F20B /* API.swift */; };
+		B26EA751232089830066F20B /* RepositoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA750232089830066F20B /* RepositoriesResponse.swift */; };
+		B26EA753232089E10066F20B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA752232089E10066F20B /* Repository.swift */; };
+		B26EA75523208A280066F20B /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA75423208A280066F20B /* Owner.swift */; };
+		B26EA75823208B620066F20B /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA75723208B620066F20B /* RepositoryService.swift */; };
 		B29365EE232076D00046CEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29365ED232076D00046CEBC /* AppDelegate.swift */; };
 		B29365F0232076D00046CEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29365EF232076D00046CEBC /* ViewController.swift */; };
 		B29365F3232076D00046CEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29365F1232076D00046CEBC /* Main.storyboard */; };
@@ -63,6 +67,10 @@
 		B26EA7482320878E0066F20B /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		B26EA74A2320879D0066F20B /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		B26EA74C232087EF0066F20B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B26EA750232089830066F20B /* RepositoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesResponse.swift; sourceTree = "<group>"; };
+		B26EA752232089E10066F20B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B26EA75423208A280066F20B /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		B26EA75723208B620066F20B /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
 		B29365EA232076D00046CEBC /* BestStarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestStarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29365ED232076D00046CEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29365EF232076D00046CEBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +164,24 @@
 			path = Environment;
 			sourceTree = "<group>";
 		};
+		B26EA74E232088AA0066F20B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B26EA75723208B620066F20B /* RepositoryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B26EA74F232089630066F20B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B26EA750232089830066F20B /* RepositoriesResponse.swift */,
+				B26EA752232089E10066F20B /* Repository.swift */,
+				B26EA75423208A280066F20B /* Owner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B29365E1232076D00046CEBC = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +207,8 @@
 		B29365EC232076D00046CEBC /* BestStarApp */ = {
 			isa = PBXGroup;
 			children = (
+				B26EA74F232089630066F20B /* Model */,
+				B26EA74E232088AA0066F20B /* Services */,
 				B26EA747232087840066F20B /* Environment */,
 				B26EA738232085F40066F20B /* Network */,
 				B29365ED232076D00046CEBC /* AppDelegate.swift */,
@@ -440,14 +468,18 @@
 				B26EA73E2320863D0066F20B /* HTTPStatusCode.swift in Sources */,
 				B26EA744232086750066F20B /* WebserviceError.swift in Sources */,
 				B29365F0232076D00046CEBC /* ViewController.swift in Sources */,
+				B26EA75823208B620066F20B /* RepositoryService.swift in Sources */,
 				B26EA742232086620066F20B /* HTTPMethod.swift in Sources */,
 				B26EA73A232086110066F20B /* BaseWebservice.swift in Sources */,
 				B26EA73C2320862A0066F20B /* DefaultSessionManager.swift in Sources */,
 				B29365EE232076D00046CEBC /* AppDelegate.swift in Sources */,
+				B26EA753232089E10066F20B /* Repository.swift in Sources */,
 				B26EA740232086500066F20B /* ParamsBuilder.swift in Sources */,
 				B26EA7462320868A0066F20B /* Webservice.swift in Sources */,
 				B26EA7492320878E0066F20B /* Environment.swift in Sources */,
+				B26EA751232089830066F20B /* RepositoriesResponse.swift in Sources */,
 				B26EA74D232087EF0066F20B /* API.swift in Sources */,
+				B26EA75523208A280066F20B /* Owner.swift in Sources */,
 				B26EA74B2320879D0066F20B /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
