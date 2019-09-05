@@ -29,9 +29,23 @@
 		B2895B9E2320AED5004B1B7E /* RepositorySwift.json in Resources */ = {isa = PBXBuildFile; fileRef = B2895B9D2320AED5004B1B7E /* RepositorySwift.json */; };
 		B2895BA02320AF19004B1B7E /* WebserviceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895B9F2320AF19004B1B7E /* WebserviceSpec.swift */; };
 		B2895BA32320AF9C004B1B7E /* RepositoryWebserviceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BA22320AF9C004B1B7E /* RepositoryWebserviceSpec.swift */; };
+		B2895BAE2320BE13004B1B7E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2895BAD2320BE13004B1B7E /* Localizable.strings */; };
+		B2895BB02320BE4B004B1B7E /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = B2895BAF2320BE4B004B1B7E /* Colors.json */; };
+		B2895BB42320BF9D004B1B7E /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2895BB32320BF9D004B1B7E /* swiftgen.yml */; };
+		B2895BB92320BFCF004B1B7E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BB52320BFCF004B1B7E /* Colors.swift */; };
+		B2895BBA2320BFCF004B1B7E /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BB62320BFCF004B1B7E /* Assets.swift */; };
+		B2895BBB2320BFCF004B1B7E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BB72320BFCF004B1B7E /* Strings.swift */; };
+		B2895BBC2320BFCF004B1B7E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BB82320BFCF004B1B7E /* Fonts.swift */; };
+		B2895BC02320C005004B1B7E /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BBF2320C005004B1B7E /* RepositoryListViewController.swift */; };
+		B2895BC42320C09F004B1B7E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BC32320C09F004B1B7E /* UIViewController+Extensions.swift */; };
+		B2895BD72320C17C004B1B7E /* Gotham-Black.otf in Sources */ = {isa = PBXBuildFile; fileRef = B2895BC52320C168004B1B7E /* Gotham-Black.otf */; };
+		B2895BD82320C17C004B1B7E /* Gotham-Bold.otf in Sources */ = {isa = PBXBuildFile; fileRef = B2895BD22320C169004B1B7E /* Gotham-Bold.otf */; };
+		B2895BD92320C17C004B1B7E /* Gotham-BookItalic.otf in Sources */ = {isa = PBXBuildFile; fileRef = B2895BD02320C169004B1B7E /* Gotham-BookItalic.otf */; };
+		B2895BDA2320C17C004B1B7E /* Gotham-Light.otf in Sources */ = {isa = PBXBuildFile; fileRef = B2895BC72320C168004B1B7E /* Gotham-Light.otf */; };
+		B2895BDB2320C17C004B1B7E /* Gotham-Thin.otf in Sources */ = {isa = PBXBuildFile; fileRef = B2895BD12320C169004B1B7E /* Gotham-Thin.otf */; };
+		B2895BEB2320C303004B1B7E /* CodeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BEA2320C303004B1B7E /* CodeViewProtocol.swift */; };
+		B2895BED2320C479004B1B7E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BEC2320C479004B1B7E /* UIView+Extensions.swift */; };
 		B29365EE232076D00046CEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29365ED232076D00046CEBC /* AppDelegate.swift */; };
-		B29365F0232076D00046CEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29365EF232076D00046CEBC /* ViewController.swift */; };
-		B29365F3232076D00046CEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29365F1232076D00046CEBC /* Main.storyboard */; };
 		B29365F5232076D20046CEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29365F4232076D20046CEBC /* Assets.xcassets */; };
 		B29365F8232076D20046CEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29365F6232076D20046CEBC /* LaunchScreen.storyboard */; };
 		B2936603232076D20046CEBC /* BestStarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2936602232076D20046CEBC /* BestStarAppTests.swift */; };
@@ -86,10 +100,24 @@
 		B2895B9D2320AED5004B1B7E /* RepositorySwift.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepositorySwift.json; sourceTree = "<group>"; };
 		B2895B9F2320AF19004B1B7E /* WebserviceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceSpec.swift; sourceTree = "<group>"; };
 		B2895BA22320AF9C004B1B7E /* RepositoryWebserviceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryWebserviceSpec.swift; sourceTree = "<group>"; };
+		B2895BAD2320BE13004B1B7E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B2895BAF2320BE4B004B1B7E /* Colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		B2895BB32320BF9D004B1B7E /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiftgen.yml; sourceTree = "<group>"; };
+		B2895BB52320BFCF004B1B7E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B2895BB62320BFCF004B1B7E /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		B2895BB72320BFCF004B1B7E /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		B2895BB82320BFCF004B1B7E /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B2895BBF2320C005004B1B7E /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
+		B2895BC32320C09F004B1B7E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		B2895BC52320C168004B1B7E /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		B2895BC72320C168004B1B7E /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		B2895BD02320C169004B1B7E /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		B2895BD12320C169004B1B7E /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		B2895BD22320C169004B1B7E /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		B2895BEA2320C303004B1B7E /* CodeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewProtocol.swift; sourceTree = "<group>"; };
+		B2895BEC2320C479004B1B7E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		B29365EA232076D00046CEBC /* BestStarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestStarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29365ED232076D00046CEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B29365EF232076D00046CEBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B29365F2232076D00046CEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29365F4232076D20046CEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29365F7232076D20046CEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B29365F9232076D20046CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -245,12 +273,114 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		B2895BA72320BDD7004B1B7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BAC2320BE00004B1B7E /* String */,
+				B2895BAB2320BDFB004B1B7E /* Colors */,
+				B2895BAA2320BDF4004B1B7E /* Fonts */,
+				B2895BA92320BDEE004B1B7E /* JSON */,
+				B2895BA82320BDE8004B1B7E /* Generated */,
+				B29365F4232076D20046CEBC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2895BA82320BDE8004B1B7E /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BB62320BFCF004B1B7E /* Assets.swift */,
+				B2895BB52320BFCF004B1B7E /* Colors.swift */,
+				B2895BB82320BFCF004B1B7E /* Fonts.swift */,
+				B2895BB72320BFCF004B1B7E /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		B2895BA92320BDEE004B1B7E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B2895BAA2320BDF4004B1B7E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BC52320C168004B1B7E /* Gotham-Black.otf */,
+				B2895BD22320C169004B1B7E /* Gotham-Bold.otf */,
+				B2895BD02320C169004B1B7E /* Gotham-BookItalic.otf */,
+				B2895BC72320C168004B1B7E /* Gotham-Light.otf */,
+				B2895BD12320C169004B1B7E /* Gotham-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B2895BAB2320BDFB004B1B7E /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BAF2320BE4B004B1B7E /* Colors.json */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		B2895BAC2320BE00004B1B7E /* String */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BAD2320BE13004B1B7E /* Localizable.strings */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		B2895BB22320BF85004B1B7E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BB32320BF9D004B1B7E /* swiftgen.yml */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B2895BBE2320BFF9004B1B7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BBF2320C005004B1B7E /* RepositoryListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2895BC12320C083004B1B7E /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BE92320C2F5004B1B7E /* Utils */,
+				B2895BC22320C092004B1B7E /* Extensions */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		B2895BC22320C092004B1B7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BC32320C09F004B1B7E /* UIViewController+Extensions.swift */,
+				B2895BEC2320C479004B1B7E /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2895BE92320C2F5004B1B7E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BEA2320C303004B1B7E /* CodeViewProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		B29365E1232076D00046CEBC = {
 			isa = PBXGroup;
 			children = (
 				B29365EC232076D00046CEBC /* BestStarApp */,
 				B2936601232076D20046CEBC /* BestStarAppTests */,
 				B293660C232076D20046CEBC /* BestStarAppUITests */,
+				B2895BB22320BF85004B1B7E /* Config */,
 				B29365EB232076D00046CEBC /* Products */,
 				6143D3E99A680787E4738230 /* Pods */,
 				5ABD95FFCEAEE45F915BC43F /* Frameworks */,
@@ -270,14 +400,14 @@
 		B29365EC232076D00046CEBC /* BestStarApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2895BC12320C083004B1B7E /* Commons */,
+				B2895BBE2320BFF9004B1B7E /* Controller */,
+				B2895BA72320BDD7004B1B7E /* Resources */,
 				B26EA74F232089630066F20B /* Model */,
 				B26EA74E232088AA0066F20B /* Services */,
 				B26EA747232087840066F20B /* Environment */,
 				B26EA738232085F40066F20B /* Network */,
 				B29365ED232076D00046CEBC /* AppDelegate.swift */,
-				B29365EF232076D00046CEBC /* ViewController.swift */,
-				B29365F1232076D00046CEBC /* Main.storyboard */,
-				B29365F4232076D20046CEBC /* Assets.xcassets */,
 				B29365F6232076D20046CEBC /* LaunchScreen.storyboard */,
 				B29365F9232076D20046CEBC /* Info.plist */,
 			);
@@ -315,6 +445,7 @@
 				B29365E7232076D00046CEBC /* Frameworks */,
 				B29365E8232076D00046CEBC /* Resources */,
 				EA2D092B972D150432295925 /* [CP] Embed Pods Frameworks */,
+				B2895BB12320BF67004B1B7E /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -414,8 +545,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29365F8232076D20046CEBC /* LaunchScreen.storyboard in Resources */,
+				B2895BB02320BE4B004B1B7E /* Colors.json in Resources */,
+				B2895BAE2320BE13004B1B7E /* Localizable.strings in Resources */,
 				B29365F5232076D20046CEBC /* Assets.xcassets in Resources */,
-				B29365F3232076D00046CEBC /* Main.storyboard in Resources */,
+				B2895BB42320BF9D004B1B7E /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +664,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppTests/Pods-BestStarApp-BestStarAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B2895BB12320BF67004B1B7E /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen config run --config Config/swiftgen.yml    \n";
+		};
 		EA2D092B972D150432295925 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,19 +733,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2895BD72320C17C004B1B7E /* Gotham-Black.otf in Sources */,
+				B2895BD82320C17C004B1B7E /* Gotham-Bold.otf in Sources */,
+				B2895BD92320C17C004B1B7E /* Gotham-BookItalic.otf in Sources */,
+				B2895BDA2320C17C004B1B7E /* Gotham-Light.otf in Sources */,
+				B2895BDB2320C17C004B1B7E /* Gotham-Thin.otf in Sources */,
 				B26EA73E2320863D0066F20B /* HTTPStatusCode.swift in Sources */,
 				B26EA744232086750066F20B /* WebserviceError.swift in Sources */,
-				B29365F0232076D00046CEBC /* ViewController.swift in Sources */,
+				B2895BB92320BFCF004B1B7E /* Colors.swift in Sources */,
 				B26EA75823208B620066F20B /* RepositoryService.swift in Sources */,
+				B2895BBB2320BFCF004B1B7E /* Strings.swift in Sources */,
+				B2895BC42320C09F004B1B7E /* UIViewController+Extensions.swift in Sources */,
 				B26EA742232086620066F20B /* HTTPMethod.swift in Sources */,
 				B26EA73A232086110066F20B /* BaseWebservice.swift in Sources */,
 				B26EA73C2320862A0066F20B /* DefaultSessionManager.swift in Sources */,
+				B2895BED2320C479004B1B7E /* UIView+Extensions.swift in Sources */,
+				B2895BBA2320BFCF004B1B7E /* Assets.swift in Sources */,
 				B29365EE232076D00046CEBC /* AppDelegate.swift in Sources */,
 				B26EA753232089E10066F20B /* Repository.swift in Sources */,
 				B26EA740232086500066F20B /* ParamsBuilder.swift in Sources */,
 				B26EA7462320868A0066F20B /* Webservice.swift in Sources */,
+				B2895BC02320C005004B1B7E /* RepositoryListViewController.swift in Sources */,
+				B2895BEB2320C303004B1B7E /* CodeViewProtocol.swift in Sources */,
 				B26EA7492320878E0066F20B /* Environment.swift in Sources */,
 				B26EA751232089830066F20B /* RepositoriesResponse.swift in Sources */,
+				B2895BBC2320BFCF004B1B7E /* Fonts.swift in Sources */,
 				B26EA74D232087EF0066F20B /* API.swift in Sources */,
 				B26EA75523208A280066F20B /* Owner.swift in Sources */,
 				B26EA74B2320879D0066F20B /* Configuration.swift in Sources */,
@@ -636,14 +799,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B29365F1232076D00046CEBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B29365F2232076D00046CEBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B29365F6232076D20046CEBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
