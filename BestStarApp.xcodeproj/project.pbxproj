@@ -45,6 +45,23 @@
 		B2895BDB2320C17C004B1B7E /* Gotham-Thin.otf in Sources */ = {isa = PBXBuildFile; fileRef = B2895BD12320C169004B1B7E /* Gotham-Thin.otf */; };
 		B2895BEB2320C303004B1B7E /* CodeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BEA2320C303004B1B7E /* CodeViewProtocol.swift */; };
 		B2895BED2320C479004B1B7E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BEC2320C479004B1B7E /* UIView+Extensions.swift */; };
+		B2895BF42320C5DD004B1B7E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BF32320C5DD004B1B7E /* Coordinator.swift */; };
+		B2895BF62320C5F9004B1B7E /* ControllerProtocol+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BF52320C5F9004B1B7E /* ControllerProtocol+UIKit.swift */; };
+		B2895BF82320C61A004B1B7E /* ControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BF72320C61A004B1B7E /* ControllerProtocol.swift */; };
+		B2895BFA2320C62E004B1B7E /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BF92320C62E004B1B7E /* Presentable.swift */; };
+		B2895BFC2320C63E004B1B7E /* Presentable+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BFB2320C63E004B1B7E /* Presentable+UIKit.swift */; };
+		B2895BFE2320C654004B1B7E /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BFD2320C654004B1B7E /* NavigationRouter.swift */; };
+		B2895C002320C669004B1B7E /* NavigationRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895BFF2320C669004B1B7E /* NavigationRouterProtocol.swift */; };
+		B2895C022320C682004B1B7E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C012320C682004B1B7E /* Router.swift */; };
+		B2895C042320C697004B1B7E /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C032320C697004B1B7E /* RouterProtocol.swift */; };
+		B2895C062320C6A7004B1B7E /* TabNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C052320C6A7004B1B7E /* TabNavigationRouter.swift */; };
+		B2895C082320C6CC004B1B7E /* TabNavigationRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C072320C6CC004B1B7E /* TabNavigationRouterProtocol.swift */; };
+		B2895C0B2320C724004B1B7E /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C0A2320C724004B1B7E /* ApplicationCoordinator.swift */; };
+		B2895C0D2320C73B004B1B7E /* RepositoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C0C2320C73B004B1B7E /* RepositoryCoordinator.swift */; };
+		B2895C102320C8A0004B1B7E /* RepositoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C0F2320C8A0004B1B7E /* RepositoryViewCell.swift */; };
+		B2895C122320CA8C004B1B7E /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C112320CA8C004B1B7E /* UIImageView+Extensions.swift */; };
+		B2895C142320CB3C004B1B7E /* UITableView+ReusableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C132320CB3C004B1B7E /* UITableView+ReusableUtils.swift */; };
+		B2895C162320CB5A004B1B7E /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895C152320CB5A004B1B7E /* Identifier.swift */; };
 		B29365EE232076D00046CEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29365ED232076D00046CEBC /* AppDelegate.swift */; };
 		B29365F5232076D20046CEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29365F4232076D20046CEBC /* Assets.xcassets */; };
 		B29365F8232076D20046CEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29365F6232076D20046CEBC /* LaunchScreen.storyboard */; };
@@ -116,6 +133,23 @@
 		B2895BD22320C169004B1B7E /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
 		B2895BEA2320C303004B1B7E /* CodeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewProtocol.swift; sourceTree = "<group>"; };
 		B2895BEC2320C479004B1B7E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		B2895BF32320C5DD004B1B7E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B2895BF52320C5F9004B1B7E /* ControllerProtocol+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ControllerProtocol+UIKit.swift"; sourceTree = "<group>"; };
+		B2895BF72320C61A004B1B7E /* ControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerProtocol.swift; sourceTree = "<group>"; };
+		B2895BF92320C62E004B1B7E /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		B2895BFB2320C63E004B1B7E /* Presentable+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentable+UIKit.swift"; sourceTree = "<group>"; };
+		B2895BFD2320C654004B1B7E /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		B2895BFF2320C669004B1B7E /* NavigationRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterProtocol.swift; sourceTree = "<group>"; };
+		B2895C012320C682004B1B7E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B2895C032320C697004B1B7E /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		B2895C052320C6A7004B1B7E /* TabNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationRouter.swift; sourceTree = "<group>"; };
+		B2895C072320C6CC004B1B7E /* TabNavigationRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationRouterProtocol.swift; sourceTree = "<group>"; };
+		B2895C0A2320C724004B1B7E /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		B2895C0C2320C73B004B1B7E /* RepositoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCoordinator.swift; sourceTree = "<group>"; };
+		B2895C0F2320C8A0004B1B7E /* RepositoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewCell.swift; sourceTree = "<group>"; };
+		B2895C112320CA8C004B1B7E /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		B2895C132320CB3C004B1B7E /* UITableView+ReusableUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableUtils.swift"; sourceTree = "<group>"; };
+		B2895C152320CB5A004B1B7E /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		B29365EA232076D00046CEBC /* BestStarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestStarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29365ED232076D00046CEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29365F4232076D20046CEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -343,6 +377,7 @@
 		B2895BBE2320BFF9004B1B7E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B2895C0E2320C888004B1B7E /* View */,
 				B2895BBF2320C005004B1B7E /* RepositoryListViewController.swift */,
 			);
 			path = Controller;
@@ -360,8 +395,11 @@
 		B2895BC22320C092004B1B7E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B2895C152320CB5A004B1B7E /* Identifier.swift */,
 				B2895BC32320C09F004B1B7E /* UIViewController+Extensions.swift */,
 				B2895BEC2320C479004B1B7E /* UIView+Extensions.swift */,
+				B2895C112320CA8C004B1B7E /* UIImageView+Extensions.swift */,
+				B2895C132320CB3C004B1B7E /* UITableView+ReusableUtils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -372,6 +410,65 @@
 				B2895BEA2320C303004B1B7E /* CodeViewProtocol.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2895BEF2320C59C004B1B7E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BF22320C5D2004B1B7E /* Controller */,
+				B2895BF12320C5CC004B1B7E /* Presentable */,
+				B2895BF02320C5C0004B1B7E /* Router */,
+				B2895BF32320C5DD004B1B7E /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		B2895BF02320C5C0004B1B7E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BFD2320C654004B1B7E /* NavigationRouter.swift */,
+				B2895BFF2320C669004B1B7E /* NavigationRouterProtocol.swift */,
+				B2895C012320C682004B1B7E /* Router.swift */,
+				B2895C032320C697004B1B7E /* RouterProtocol.swift */,
+				B2895C052320C6A7004B1B7E /* TabNavigationRouter.swift */,
+				B2895C072320C6CC004B1B7E /* TabNavigationRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B2895BF12320C5CC004B1B7E /* Presentable */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BF92320C62E004B1B7E /* Presentable.swift */,
+				B2895BFB2320C63E004B1B7E /* Presentable+UIKit.swift */,
+			);
+			path = Presentable;
+			sourceTree = "<group>";
+		};
+		B2895BF22320C5D2004B1B7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2895BF52320C5F9004B1B7E /* ControllerProtocol+UIKit.swift */,
+				B2895BF72320C61A004B1B7E /* ControllerProtocol.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2895C092320C716004B1B7E /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B2895C0A2320C724004B1B7E /* ApplicationCoordinator.swift */,
+				B2895C0C2320C73B004B1B7E /* RepositoryCoordinator.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		B2895C0E2320C888004B1B7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2895C0F2320C8A0004B1B7E /* RepositoryViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B29365E1232076D00046CEBC = {
@@ -400,6 +497,8 @@
 		B29365EC232076D00046CEBC /* BestStarApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2895C092320C716004B1B7E /* Flow */,
+				B2895BEF2320C59C004B1B7E /* Coordinators */,
 				B2895BC12320C083004B1B7E /* Commons */,
 				B2895BBE2320BFF9004B1B7E /* Controller */,
 				B2895BA72320BDD7004B1B7E /* Resources */,
@@ -734,30 +833,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2895BD72320C17C004B1B7E /* Gotham-Black.otf in Sources */,
+				B2895C162320CB5A004B1B7E /* Identifier.swift in Sources */,
+				B2895BFA2320C62E004B1B7E /* Presentable.swift in Sources */,
+				B2895C142320CB3C004B1B7E /* UITableView+ReusableUtils.swift in Sources */,
 				B2895BD82320C17C004B1B7E /* Gotham-Bold.otf in Sources */,
 				B2895BD92320C17C004B1B7E /* Gotham-BookItalic.otf in Sources */,
+				B2895C022320C682004B1B7E /* Router.swift in Sources */,
+				B2895C082320C6CC004B1B7E /* TabNavigationRouterProtocol.swift in Sources */,
 				B2895BDA2320C17C004B1B7E /* Gotham-Light.otf in Sources */,
 				B2895BDB2320C17C004B1B7E /* Gotham-Thin.otf in Sources */,
+				B2895C042320C697004B1B7E /* RouterProtocol.swift in Sources */,
 				B26EA73E2320863D0066F20B /* HTTPStatusCode.swift in Sources */,
 				B26EA744232086750066F20B /* WebserviceError.swift in Sources */,
+				B2895C062320C6A7004B1B7E /* TabNavigationRouter.swift in Sources */,
+				B2895C102320C8A0004B1B7E /* RepositoryViewCell.swift in Sources */,
 				B2895BB92320BFCF004B1B7E /* Colors.swift in Sources */,
+				B2895C122320CA8C004B1B7E /* UIImageView+Extensions.swift in Sources */,
+				B2895C002320C669004B1B7E /* NavigationRouterProtocol.swift in Sources */,
 				B26EA75823208B620066F20B /* RepositoryService.swift in Sources */,
+				B2895C0B2320C724004B1B7E /* ApplicationCoordinator.swift in Sources */,
 				B2895BBB2320BFCF004B1B7E /* Strings.swift in Sources */,
 				B2895BC42320C09F004B1B7E /* UIViewController+Extensions.swift in Sources */,
 				B26EA742232086620066F20B /* HTTPMethod.swift in Sources */,
 				B26EA73A232086110066F20B /* BaseWebservice.swift in Sources */,
 				B26EA73C2320862A0066F20B /* DefaultSessionManager.swift in Sources */,
+				B2895BF62320C5F9004B1B7E /* ControllerProtocol+UIKit.swift in Sources */,
 				B2895BED2320C479004B1B7E /* UIView+Extensions.swift in Sources */,
 				B2895BBA2320BFCF004B1B7E /* Assets.swift in Sources */,
+				B2895BFE2320C654004B1B7E /* NavigationRouter.swift in Sources */,
 				B29365EE232076D00046CEBC /* AppDelegate.swift in Sources */,
 				B26EA753232089E10066F20B /* Repository.swift in Sources */,
+				B2895BF42320C5DD004B1B7E /* Coordinator.swift in Sources */,
+				B2895BF82320C61A004B1B7E /* ControllerProtocol.swift in Sources */,
 				B26EA740232086500066F20B /* ParamsBuilder.swift in Sources */,
 				B26EA7462320868A0066F20B /* Webservice.swift in Sources */,
 				B2895BC02320C005004B1B7E /* RepositoryListViewController.swift in Sources */,
 				B2895BEB2320C303004B1B7E /* CodeViewProtocol.swift in Sources */,
 				B26EA7492320878E0066F20B /* Environment.swift in Sources */,
 				B26EA751232089830066F20B /* RepositoriesResponse.swift in Sources */,
+				B2895BFC2320C63E004B1B7E /* Presentable+UIKit.swift in Sources */,
 				B2895BBC2320BFCF004B1B7E /* Fonts.swift in Sources */,
+				B2895C0D2320C73B004B1B7E /* RepositoryCoordinator.swift in Sources */,
 				B26EA74D232087EF0066F20B /* API.swift in Sources */,
 				B26EA75523208A280066F20B /* Owner.swift in Sources */,
 				B26EA74B2320879D0066F20B /* Configuration.swift in Sources */,

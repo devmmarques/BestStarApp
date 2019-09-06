@@ -12,12 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var applicationCoordinator: ApplicationCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        self.window?.rootViewController = RepositoryListViewController()
+        let router = Router(rootController: self.window!)
+        applicationCoordinator = ApplicationCoordinator(router: router)
+        applicationCoordinator?.start()
+        
         self.window?.makeKeyAndVisible()
         return true
     }

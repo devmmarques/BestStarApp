@@ -36,14 +36,14 @@ extension UIViewController {
         navigationController.navigationBar.barStyle = .black
         navigationController.navigationBar.tintColor = .white
         
-        navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(font: FontFamily.Gotham.bold,
-                                                                                                      size: 16)!,
-                                                                  NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationController.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.font: UIFont(font: FontFamily.Gotham.bold,
-                                                                                                           size: 34)!,
-                                                                       NSAttributedString.Key.foregroundColor: UIColor.white]
-        
         navigationController.navigationBar.prefersLargeTitles = prefersLargeTitles
+        
+        guard let fontTitleText = UIFont(font: FontFamily.Gotham.black, size: 16) else { return }
+        guard let fontLargeTitle = UIFont(font: FontFamily.Gotham.black, size: 28) else { return }
+        navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: fontTitleText, NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationController.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.font: fontLargeTitle, NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        
         
         navigationController.navigationBar.layoutIfNeeded()
         navigationItem.backBarButtonItem?.title = ""
