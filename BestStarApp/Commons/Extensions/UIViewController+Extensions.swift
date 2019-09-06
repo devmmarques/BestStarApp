@@ -25,7 +25,7 @@ extension UIViewController {
         
         switch style {
         case .default:
-            navigationController.navigationBar.barTintColor = ColorName.blueApp.color
+            navigationController.navigationBar.barTintColor = ColorName.backgroundApp.color
         case .colored(let barColor):
             navigationController.navigationBar.barTintColor = barColor
         }

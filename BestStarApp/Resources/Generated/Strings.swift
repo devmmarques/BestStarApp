@@ -13,6 +13,14 @@ import Foundation
 internal enum L10n {
   /// BestStarApp
   internal static let bestStarApp = L10n.tr("Localizable", "BestStarApp")
+  /// Não foi possível carregar a lista de Repositórios
+  internal static let errorInternetDescription = L10n.tr("Localizable", "errorInternetDescription")
+  /// Sem conexão com internet
+  internal static let errorInternetTitle = L10n.tr("Localizable", "errorInternetTitle")
+  /// Não foi possivel carregar a lista de Repositórios. Por favor, tente mais tarde.
+  internal static let errorUnexpectedDescription = L10n.tr("Localizable", "errorUnexpectedDescription")
+  /// Erro inesperado
+  internal static let errorUnexpectedTitle = L10n.tr("Localizable", "errorUnexpectedTitle")
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name

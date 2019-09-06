@@ -7,3 +7,7 @@
 */
 
 "BestStarApp" = "BestStarApp";
+"errorInternetDescription" = "Não foi possível carregar a lista de Repositórios";
+"errorUnexpectedDescription" = "Não foi possivel carregar a lista de Repositórios. Por favor, tente mais tarde.";
+"errorUnexpectedTitle" = "Erro inesperado";
+"errorInternetTitle" = "Sem conexão com internet";
