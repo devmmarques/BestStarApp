@@ -40,6 +40,7 @@ final class LoadingViewCell: UITableViewCell {
     
     private func setupCell() {
         self.backgroundColor = .clear
+        accessibilityIdentifier = "LoadingViewCell"
         setupViews()
         loadingView.play()
     }

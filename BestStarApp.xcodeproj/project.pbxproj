@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,7 +24,6 @@
 		B26EA753232089E10066F20B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA752232089E10066F20B /* Repository.swift */; };
 		B26EA75523208A280066F20B /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA75423208A280066F20B /* Owner.swift */; };
 		B26EA75823208B620066F20B /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EA75723208B620066F20B /* RepositoryService.swift */; };
-		B2895B972320ADA9004B1B7E /* Pods_BestStarAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2895B962320ADA9004B1B7E /* Pods_BestStarAppUITests.framework */; };
 		B2895B9B2320AE8A004B1B7E /* MockWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895B9A2320AE8A004B1B7E /* MockWebservice.swift */; };
 		B2895B9E2320AED5004B1B7E /* RepositorySwift.json in Resources */ = {isa = PBXBuildFile; fileRef = B2895B9D2320AED5004B1B7E /* RepositorySwift.json */; };
 		B2895BA02320AF19004B1B7E /* WebserviceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895B9F2320AF19004B1B7E /* WebserviceSpec.swift */; };
@@ -66,7 +65,12 @@
 		B29365F5232076D20046CEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29365F4232076D20046CEBC /* Assets.xcassets */; };
 		B29365F8232076D20046CEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29365F6232076D20046CEBC /* LaunchScreen.storyboard */; };
 		B2936603232076D20046CEBC /* BestStarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2936602232076D20046CEBC /* BestStarAppTests.swift */; };
-		B293660E232076D20046CEBC /* BestStarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293660D232076D20046CEBC /* BestStarAppUITests.swift */; };
+		B2D624172328114700CCC4BC /* KIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D624162328114700CCC4BC /* KIF.framework */; };
+		B2D6241A2328133E00CCC4BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D624192328133E00CCC4BC /* QuartzCore.framework */; };
+		B2D6241D2328188600CCC4BC /* MockRepositoryWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6241C2328188600CCC4BC /* MockRepositoryWebservice.swift */; };
+		B2D6241E2328198800CCC4BC /* MockWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2895B9A2320AE8A004B1B7E /* MockWebservice.swift */; };
+		B2D6242223281A5300CCC4BC /* RepositoryListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6242123281A5300CCC4BC /* RepositoryListViewControllerTests.swift */; };
+		B2D6242823281FFC00CCC4BC /* XCTestCase+Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6242723281FFC00CCC4BC /* XCTestCase+Tester.swift */; };
 		B2D914152321E11100DC7210 /* RepositoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D914142321E11100DC7210 /* RepositoryPresenter.swift */; };
 		B2D914182321E15500DC7210 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D914172321E15500DC7210 /* RepositoryProtocol.swift */; };
 		B2D9141A2321E1CE00DC7210 /* RepositoryListCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D914192321E1CE00DC7210 /* RepositoryListCellType.swift */; };
@@ -80,7 +84,6 @@
 		B2D914292321FBF200DC7210 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2895BD02320C169004B1B7E /* Gotham-BookItalic.otf */; };
 		B2D9142A2321FBF200DC7210 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2895BC72320C168004B1B7E /* Gotham-Light.otf */; };
 		B2D9142B2321FBF200DC7210 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2895BD12320C169004B1B7E /* Gotham-Thin.otf */; };
-		F5EBAD5F32C591140F88465E /* Pods_BestStarAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99527C34007A93B60BF43782 /* Pods_BestStarAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +110,6 @@
 		75F42AA73F81DAA1DCA83B41 /* Pods-BestStarApp-BestStarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestStarApp-BestStarAppTests.release.xcconfig"; path = "Target Support Files/Pods-BestStarApp-BestStarAppTests/Pods-BestStarApp-BestStarAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81145F7D6A4C2DE731DEAAB1 /* Pods-BestStarAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestStarAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BestStarAppUITests/Pods-BestStarAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95658648A3DB54AB78E0D06F /* Pods-BestStarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestStarAppTests.release.xcconfig"; path = "Target Support Files/Pods-BestStarAppTests/Pods-BestStarAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		99527C34007A93B60BF43782 /* Pods_BestStarAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestStarAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A620EFD9C1010E4868507A76 /* Pods_BestStarApp_BestStarAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestStarApp_BestStarAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA08AE211E6D3313E95497FD /* Pods_BestStarAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestStarAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26EA739232086110066F20B /* BaseWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebservice.swift; sourceTree = "<group>"; };
@@ -125,7 +127,6 @@
 		B26EA75423208A280066F20B /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		B26EA75723208B620066F20B /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
 		B2895B942320AD8F004B1B7E /* Pods_BestStarAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BestStarAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2895B962320ADA9004B1B7E /* Pods_BestStarAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BestStarAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2895B9A2320AE8A004B1B7E /* MockWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebservice.swift; sourceTree = "<group>"; };
 		B2895B9D2320AED5004B1B7E /* RepositorySwift.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepositorySwift.json; sourceTree = "<group>"; };
 		B2895B9F2320AF19004B1B7E /* WebserviceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceSpec.swift; sourceTree = "<group>"; };
@@ -172,8 +173,13 @@
 		B2936602232076D20046CEBC /* BestStarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestStarAppTests.swift; sourceTree = "<group>"; };
 		B2936604232076D20046CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2936609232076D20046CEBC /* BestStarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestStarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B293660D232076D20046CEBC /* BestStarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestStarAppUITests.swift; sourceTree = "<group>"; };
 		B293660F232076D20046CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D6241523280FBB00CCC4BC /* BestStarAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BestStarAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2D624162328114700CCC4BC /* KIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D624192328133E00CCC4BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2D6241C2328188600CCC4BC /* MockRepositoryWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepositoryWebservice.swift; sourceTree = "<group>"; };
+		B2D6242123281A5300CCC4BC /* RepositoryListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewControllerTests.swift; sourceTree = "<group>"; };
+		B2D6242723281FFC00CCC4BC /* XCTestCase+Tester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Tester.swift"; sourceTree = "<group>"; };
 		B2D914142321E11100DC7210 /* RepositoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryPresenter.swift; sourceTree = "<group>"; };
 		B2D914172321E15500DC7210 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
 		B2D914192321E1CE00DC7210 /* RepositoryListCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCellType.swift; sourceTree = "<group>"; };
@@ -203,7 +209,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EBAD5F32C591140F88465E /* Pods_BestStarAppTests.framework in Frameworks */,
 				301C2DA951BAC31FE3C3127A /* Pods_BestStarApp_BestStarAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +217,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2895B972320ADA9004B1B7E /* Pods_BestStarAppUITests.framework in Frameworks */,
+				B2D6241A2328133E00CCC4BC /* QuartzCore.framework in Frameworks */,
+				B2D624172328114700CCC4BC /* KIF.framework in Frameworks */,
 				5FF701C83B5FF5A1560B2BC6 /* Pods_BestStarApp_BestStarAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,10 +229,10 @@
 		5ABD95FFCEAEE45F915BC43F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2895B962320ADA9004B1B7E /* Pods_BestStarAppUITests.framework */,
+				B2D624192328133E00CCC4BC /* QuartzCore.framework */,
+				B2D624162328114700CCC4BC /* KIF.framework */,
 				B2895B942320AD8F004B1B7E /* Pods_BestStarAppTests.framework */,
 				CCD59D251B77BE2649FD0086 /* Pods_BestStarApp.framework */,
-				99527C34007A93B60BF43782 /* Pods_BestStarAppTests.framework */,
 				AA08AE211E6D3313E95497FD /* Pods_BestStarAppUITests.framework */,
 				DF538A0213B1A8481E987B93 /* Pods_BestStarApp_BestStarAppTests.framework */,
 				A620EFD9C1010E4868507A76 /* Pods_BestStarApp_BestStarAppUITests.framework */,
@@ -552,10 +558,45 @@
 		B293660C232076D20046CEBC /* BestStarAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B293660D232076D20046CEBC /* BestStarAppUITests.swift */,
+				B2D6242623281FF000CCC4BC /* TestExtensions */,
+				B2D6241F23281A3600CCC4BC /* Components */,
+				B2D6241B2328187300CCC4BC /* Network */,
 				B293660F232076D20046CEBC /* Info.plist */,
+				B2D6241523280FBB00CCC4BC /* BestStarAppUITests-Bridging-Header.h */,
 			);
 			path = BestStarAppUITests;
+			sourceTree = "<group>";
+		};
+		B2D6241B2328187300CCC4BC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B2D6241C2328188600CCC4BC /* MockRepositoryWebservice.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B2D6241F23281A3600CCC4BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B2D6242023281A3D00CCC4BC /* Repository */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B2D6242023281A3D00CCC4BC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B2D6242123281A5300CCC4BC /* RepositoryListViewControllerTests.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B2D6242623281FF000CCC4BC /* TestExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2D6242723281FFC00CCC4BC /* XCTestCase+Tester.swift */,
+			);
+			path = TestExtensions;
 			sourceTree = "<group>";
 		};
 		B2D914162321E14800DC7210 /* Protocol */ = {
@@ -734,18 +775,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppUITests/Pods-BestStarApp-BestStarAppUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppUITests/Pods-BestStarApp-BestStarAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppUITests/Pods-BestStarApp-BestStarAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -802,24 +836,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppTests/Pods-BestStarApp-BestStarAppTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppTests/Pods-BestStarApp-BestStarAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp-BestStarAppTests/Pods-BestStarApp-BestStarAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -850,18 +871,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp/Pods-BestStarApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp/Pods-BestStarApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BestStarApp/Pods-BestStarApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -967,7 +981,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B293660E232076D20046CEBC /* BestStarAppUITests.swift in Sources */,
+				B2D6242223281A5300CCC4BC /* RepositoryListViewControllerTests.swift in Sources */,
+				B2D6241D2328188600CCC4BC /* MockRepositoryWebservice.swift in Sources */,
+				B2D6242823281FFC00CCC4BC /* XCTestCase+Tester.swift in Sources */,
+				B2D6241E2328198800CCC4BC /* MockWebservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1128,7 +1145,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mmarques.BestStarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1147,7 +1165,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mmarques.BestStarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1168,7 +1187,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mmarques.BestStarAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestStarApp.app/BestStarApp";
 			};
@@ -1190,7 +1209,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mmarques.BestStarAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestStarApp.app/BestStarApp";
 			};
@@ -1209,9 +1228,32 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"IOKit\"",
+					"-framework",
+					"\"KIF\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"XCTest\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mmarques.BestStarAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BestStarApp;
 			};
@@ -1230,9 +1272,32 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"IOKit\"",
+					"-framework",
+					"\"KIF\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"XCTest\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.mmarques.BestStarAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BestStarApp;
 			};

@@ -83,6 +83,7 @@ final class RepositoryViewCell: UITableViewCell {
     private func setupCell() {
         self.selectionStyle = .none
         self.backgroundColor = .clear
+        accessibilityIdentifier = "repositoryViewCell"
         setupViews()
     }
     

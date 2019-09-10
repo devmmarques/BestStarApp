@@ -21,6 +21,7 @@ final class RepositoryListViewController: UIViewController {
         let tableView = UITableView(frame: .zero)
         tableView.backgroundColor = .clear
         tableView.separatorStyle = .none
+        tableView.accessibilityIdentifier = "tableViewRepositories"
         return tableView
     }()
     

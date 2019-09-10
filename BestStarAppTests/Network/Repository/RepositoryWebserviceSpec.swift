@@ -24,7 +24,7 @@ final class RepositoryWebserviceSpec: QuickSpec {
                 
                 it("return valid client git repositories if service has ok.") {
                     webservice = RepositoryService(service: MockWebservice(type: .searchRepositories))
-                    webservice.searchRepository(completion: { result in
+                    webservice.searchRepository(page: 1, completion: { result in
                         switch result {
                         case .success:
                             expect(true) == true
@@ -36,7 +36,7 @@ final class RepositoryWebserviceSpec: QuickSpec {
                 
                 it("return unexpected error after webservice returns unexpected error") {
                     webservice = RepositoryService(service: MockWebservice(type: .unexpectedError))
-                    webservice.searchRepository(completion: { result in
+                    webservice.searchRepository(page: 1, completion: { result in
                         switch result {
                         case .success:
                             XCTFail()

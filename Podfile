@@ -16,8 +16,8 @@ target 'BestStarApp' do
   end
 
   target 'BestStarAppUITests' do
-    
-    
+    pod 'KIF'
+    pod 'KIF/IdentifierTests'
   end
 
 end

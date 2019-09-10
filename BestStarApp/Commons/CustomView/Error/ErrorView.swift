@@ -61,6 +61,7 @@ final class ErrorView: UIView {
         buttonTryAgain.addTarget(self, action: #selector(actionButton), for: .touchUpInside)
         setupViews()
         setupView(error: error)
+        accessibilityIdentifier = "viewError"
     }
     
     @objc private func actionButton() {
