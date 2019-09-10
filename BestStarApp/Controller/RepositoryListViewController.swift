@@ -59,6 +59,7 @@ final class RepositoryListViewController: UIViewController {
     private func setupTableView() {
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.tableView.prefetchDataSource = self
         self.tableView.contentInsetAdjustmentBehavior = .automatic
         self.tableView.register(RepositoryViewCell.self)
         self.tableView.register(LoadingViewCell.self)
@@ -69,7 +70,7 @@ final class RepositoryListViewController: UIViewController {
 extension RepositoryListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return presenter.getCountRepositories()
+        return presenter.currentCount
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -98,9 +99,15 @@ extension RepositoryListViewController: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
-//        return 100.0
     }
-    
+}
+
+extension RepositoryListViewController: UITableViewDataSourcePrefetching {
+    func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
+        if indexPaths.contains(where: isLoadingCell) {
+            presenter.searchRepository()
+        }
+    }
 }
 
 
@@ -139,6 +146,13 @@ extension RepositoryListViewController: CodeViewProtocol {
 extension RepositoryListViewController: RepositoryProtocol {
     
     func showView() {
-        tableView.reloadData()
+        self.tableView.reloadData()
+    }
+}
+
+extension RepositoryListViewController {
+    
+    func isLoadingCell(for indexPath: IndexPath) -> Bool {
+        return indexPath.row >= presenter.currentCount-1
     }
 }

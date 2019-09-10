@@ -23,12 +23,12 @@ struct API {
     }
     
     enum Parameters {
-        case searchBestStars(language: String)
+        case searchBestStars(language: String, page: Int)
         
         var value: [String: Any] {
             switch self {
-            case .searchBestStars(let language):
-                return ["q":"language:\(language)","sort": "stars"]
+            case .searchBestStars(let language, let page):
+                return ["q":"language:\(language)","sort": "stars", "page": "\(page)"]
             }
         }
     }

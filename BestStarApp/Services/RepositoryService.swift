@@ -10,7 +10,7 @@ import Foundation
 
 protocol RepositoryServiceProtocol  {
     typealias RepositoryResult = Result<RepositoriesResponse, WebserviceError>
-    func searchRepository(completion: @escaping (RepositoryResult) -> Void)
+    func searchRepository(page: Int, completion: @escaping (RepositoryResult) -> Void)
 }
 
 final class RepositoryService: NSObject, RepositoryServiceProtocol {
@@ -21,9 +21,9 @@ final class RepositoryService: NSObject, RepositoryServiceProtocol {
         self.service = service
     }
     
-    func searchRepository(completion: @escaping (RepositoryResult) -> Void) {
+    func searchRepository(page: Int, completion: @escaping (RepositoryResult) -> Void) {
         service.request(urlString: API.Path.searchRepositories.value,
-                        parameters: API.Parameters.searchBestStars(language: "swift").value,
+                        parameters: API.Parameters.searchBestStars(language: "swift", page: page).value,
                         encoding: .queryString) { (result: RepositoryResult) in
                             
             switch result {
