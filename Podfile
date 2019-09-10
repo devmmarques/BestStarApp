@@ -5,6 +5,8 @@ target 'BestStarApp' do
   use_frameworks!
 
   pod 'Alamofire'
+  pod 'SwiftGen'
+  pod 'lottie-ios'
 
   target 'BestStarAppTests' do
     pod 'Quick'
