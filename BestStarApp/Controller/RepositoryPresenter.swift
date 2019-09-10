@@ -8,6 +8,11 @@
 
 import Foundation
 
+enum TypeUpdateView {
+    case first
+    case pagination
+    case pullRefresh
+}
 
 final class RepositoryPresenter {
     
@@ -31,14 +36,19 @@ final class RepositoryPresenter {
         self.service = service
     }
     
-    func searchRepository() {
+    func searchRepository(type: TypeUpdateView) {
         guard !isFetchInProgress else {
             return
         }
         
-        if self.currentPage == 1 {
+        if type == .first {
           allRepository = [.loading]
         }
+        
+        if type == .pullRefresh {
+            currentPage = 1
+        }
+        
         isFetchInProgress = true
         
         service.searchRepository(page: currentPage) { [weak self] result in
@@ -47,16 +57,7 @@ final class RepositoryPresenter {
             case let .success(repository):
                 self.total = repository.total_count
                 
-                if self.currentPage == 1 {
-                    self.allRepository = repository.items.map {
-                        return RepositoryListCellType.cell($0)
-                    }
-                } else {
-                    let newsRepositories = repository.items.map {
-                        return RepositoryListCellType.cell($0)
-                    }
-                    self.allRepository.append(contentsOf: newsRepositories)
-                }
+                self.loadRepository(type: type, repositoryResponse: repository)
                 
                 self.viewProtocol?.showView()
                 self.isFetchInProgress = false
@@ -78,5 +79,19 @@ extension RepositoryPresenter {
     
     func getRepository(by index: Int) -> RepositoryListCellType<Repository> {
         return allRepository[index]
+    }
+    
+    private func loadRepository(type: TypeUpdateView, repositoryResponse: RepositoriesResponse) {
+        switch type {
+        case .first, .pullRefresh:
+            self.allRepository = repositoryResponse.items.map {
+                return RepositoryListCellType.cell($0)
+            }
+        case .pagination:
+            let newsRepositories = repositoryResponse.items.map {
+                return RepositoryListCellType.cell($0)
+            }
+            self.allRepository.append(contentsOf: newsRepositories)
+        }
     }
 }

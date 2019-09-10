@@ -24,6 +24,12 @@ final class RepositoryListViewController: UIViewController {
         return tableView
     }()
     
+    private lazy var pullRefresh: UIRefreshControl = {
+        let refresh = UIRefreshControl(frame: .zero)
+        refresh.addTarget(self, action: #selector(refreshView(sender:)), for: .valueChanged)
+        return refresh
+    }()
+    
     private let presenter: RepositoryPresenter
     
     init(presenter: RepositoryPresenter = RepositoryPresenter()) {
@@ -43,7 +49,7 @@ final class RepositoryListViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
         setupTableView()
-        presenter.searchRepository()
+        presenter.searchRepository(type: .first)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -61,9 +67,14 @@ final class RepositoryListViewController: UIViewController {
         self.tableView.dataSource = self
         self.tableView.prefetchDataSource = self
         self.tableView.contentInsetAdjustmentBehavior = .automatic
+        self.tableView.addSubview(pullRefresh)
         self.tableView.register(RepositoryViewCell.self)
         self.tableView.register(LoadingViewCell.self)
         self.tableView.register(ErrorTableViewCell.self)
+    }
+    
+    @objc func refreshView(sender:AnyObject) {
+        self.presenter.searchRepository(type: .pullRefresh)
     }
 }
 
@@ -88,7 +99,7 @@ extension RepositoryListViewController: UITableViewDataSource {
             let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as ErrorTableViewCell
             cell.setupCell(error: error) { [weak self] in
                 guard let self = self else { return }
-                self.presenter.searchRepository()
+                self.presenter.searchRepository(type: .first)
             }
             return cell
         }
@@ -105,7 +116,7 @@ extension RepositoryListViewController: UITableViewDataSource {
 extension RepositoryListViewController: UITableViewDataSourcePrefetching {
     func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
         if indexPaths.contains(where: isLoadingCell) {
-            presenter.searchRepository()
+            presenter.searchRepository(type: .pagination)
         }
     }
 }
@@ -147,6 +158,7 @@ extension RepositoryListViewController: RepositoryProtocol {
     
     func showView() {
         self.tableView.reloadData()
+        self.pullRefresh.endRefreshing()
     }
 }
 
@@ -155,4 +167,5 @@ extension RepositoryListViewController {
     func isLoadingCell(for indexPath: IndexPath) -> Bool {
         return indexPath.row >= presenter.currentCount-1
     }
+   
 }
